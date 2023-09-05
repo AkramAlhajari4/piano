@@ -1,0 +1,28 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.key {
+    display: inline-block;
+    width: 100px; /* تغيير عرض العناصر */
+    height: 50px; /* تغيير ارتفاع العناصر */
+    background-color: #3498db; /* تغيير لون الخلفية */
+    border: 2px solid #000;
+    margin: 10px; /* تغيير هوامش العناصر */
+    cursor: pointer;
+    font-size: 18px; /* تغيير حجم الخط */
+    line-height: 50px;
+}
+
+.key.black {
+    background-color: #000;
+    color: #fff;
+    width: 80px; /* تغيير عرض العنصر الأسود */
+    height: 40px; /* تغيير ارتفاع العنصر الأسود */
+    margin: 5px; /* تغيير هوامش العنصر الأسود */
+    position: relative;
+    top: -10px; /* تغيير الارتفاع النسبي */
+    z-index: 1;
+}
